@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* reactNativeKotlinSwiftBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactNativeKotlinSwiftBoilerplateTests.m */; };
 		07E821D481844721E92347B0 /* libPods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E996374B42D58616DA61476 /* libPods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		425195AF26C94F3100CBF26E /* libYogaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 425195AE26C94F3100CBF26E /* libYogaKit.a */; };
+		425A647926CA0BEB0047D1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A647826CA0BEB0047D1D8 /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FD468CECAFE04D5A5F5AC8E3 /* libPods-reactNativeKotlinSwiftBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BDF23A462A4CABB8B324F2 /* libPods-reactNativeKotlinSwiftBoilerplate.a */; };
 /* End PBXBuildFile section */
@@ -33,13 +32,12 @@
 		00E356F21AD99517003FC87E /* reactNativeKotlinSwiftBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactNativeKotlinSwiftBoilerplateTests.m; sourceTree = "<group>"; };
 		026CDEBF39B73A80E3D742B9 /* Pods-reactNativeKotlinSwiftBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeKotlinSwiftBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeKotlinSwiftBoilerplate/Pods-reactNativeKotlinSwiftBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* reactNativeKotlinSwiftBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactNativeKotlinSwiftBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactNativeKotlinSwiftBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactNativeKotlinSwiftBoilerplate/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactNativeKotlinSwiftBoilerplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactNativeKotlinSwiftBoilerplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactNativeKotlinSwiftBoilerplate/main.m; sourceTree = "<group>"; };
 		2E996374B42D58616DA61476 /* libPods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		425195AE26C94F3100CBF26E /* libYogaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		425A647726CA0BEA0047D1D8 /* reactNativeKotlinSwiftBoilerplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reactNativeKotlinSwiftBoilerplate-Bridging-Header.h"; sourceTree = "<group>"; };
+		425A647826CA0BEB0047D1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53BDF23A462A4CABB8B324F2 /* libPods-reactNativeKotlinSwiftBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeKotlinSwiftBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		658039FF35FE32DE97A6D124 /* Pods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests/Pods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactNativeKotlinSwiftBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,12 +87,9 @@
 		13B07FAE1A68108700A75B9A /* reactNativeKotlinSwiftBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = reactNativeKotlinSwiftBoilerplate;
 			sourceTree = "<group>";
@@ -120,12 +115,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				425A647826CA0BEB0047D1D8 /* AppDelegate.swift */,
 				13B07FAE1A68108700A75B9A /* reactNativeKotlinSwiftBoilerplate */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* reactNativeKotlinSwiftBoilerplateTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D1B706DD98723F712DCC334B /* Pods */,
+				425A647726CA0BEA0047D1D8 /* reactNativeKotlinSwiftBoilerplate-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -211,7 +208,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -414,8 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				425A647926CA0BEB0047D1D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5D4817D60FC5A8A14EA7A9 /* Pods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -461,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 658039FF35FE32DE97A6D124 /* Pods-reactNativeKotlinSwiftBoilerplate-reactNativeKotlinSwiftBoilerplateTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = reactNativeKotlinSwiftBoilerplateTests/Info.plist;
@@ -503,6 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reactNativeKotlinSwiftBoilerplate;
+				SWIFT_OBJC_BRIDGING_HEADER = "reactNativeKotlinSwiftBoilerplate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -530,6 +529,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reactNativeKotlinSwiftBoilerplate;
+				SWIFT_OBJC_BRIDGING_HEADER = "reactNativeKotlinSwiftBoilerplate-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
